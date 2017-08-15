@@ -36,7 +36,7 @@ window.renderStatistics = function (ctx, names, times) {
 
   }
   var histogramWidth = 150;
-  var step = histogramWidth / (max);
+  var step = histogramWidth / max;
 
 
   for (var p = 0; p < times.length; p++) {
